@@ -1,0 +1,54 @@
+https://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses
+
+find and del your swap-file
+always save or quit cleanly
+
+whenever not quick respond, wait, and/or re-issue your cmd
+
+Esc+Esc get out of pervious cntrl mode
+:+Esc get out of Errors
+
+:ter
+open a terminal (within your screen) to run something quick
+
+u undo; ^R redo
+. repeat last editing command
+
+top of file --> Esc+gg 
+bottom of file --> Esc+G 
+
+
+:set <-- show all setting
+:set nonumber
+:set number
+123G --> move to ln123
+
+
+
+ctrl+f – Jump forward one full screen.
+ctrl+b – Jump backwards one full screen.
+ctrl+d – Jump forward (down) a half screen.
+ctrl+u – Jump back (up) one half screen.
+or using CAPs
+^F forward full screen; ^B backward full screen
+^D down half screen; ^U up half screen
+zz centre cursor line
+
+H – Go to the first line of current screen.
+M – Go to the middle line of current screen.
+L – Go to the last line of current screen.
+
+0/^ begining of line
+end/$ end of line 
+
+search
+N/n --> / or ?
+ignore case
+:set noic
+:set ic
+\<log\> --> grep -w
+:s/log/log222 <-- first word only - not working?
+:%s/log/log222
+:%s/log/log222/g
+
+:g/^\s*$/d <--

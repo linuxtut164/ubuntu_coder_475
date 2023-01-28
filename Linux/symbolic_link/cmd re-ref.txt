@@ -1,0 +1,14 @@
+how to view and find out your slinks
+
+>find / -type l -ls | grep jxz
+
+how about related your jjzALL
+>find / -type l -ls | grep jjz 
+
+quick test cycle 
+
+cd /s_links_under_root/top_dir
+sudo ln -s /home/jxz008/my_slinks/top_dir_jxz_home /s_links_under_root/top_dir
+
+sudo unlink top_dir_jxz_home
+
